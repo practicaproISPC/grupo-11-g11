@@ -1,0 +1,46 @@
+html, body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 70%;
+}
+h1{
+    background-color:rgb(240, 177, 60); 
+    font-size: 40px;
+}
+h3{
+    padding:0;
+    margin: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+h2{
+    margin: 0;
+    padding: 2em;
+}
+.container{
+    background-color: #9AD1ED;
+    padding: 1em;
+    overflow: hidden;
+    
+}
+.item{
+    margin: 6px;
+    padding: 1px;
+    color:black;
+    float: left;
+    align-items: center;
+}
+#item1{
+    background-color:rgb(240, 177, 60) ;
+}
+#item2{
+    background-color:cornsilk ;
+}
+#item3{
+    background-color:rgb(240, 177, 60);
+}
+#item4{
+    background-color:cornsilk;
+}

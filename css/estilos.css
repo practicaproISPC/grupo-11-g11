@@ -12,7 +12,7 @@ h1{
 }
 .form-register{
 	width: 95%;
-	max-width: 500px;
+	max-width: 975px;
 	margin: auto;
 	background: white;
 	border-radius: 7px;
@@ -30,7 +30,7 @@ h1{
 
 }
 .contenedor-inputs{
-	padding: 10px 30px;
+	padding: 25px 70px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -43,18 +43,21 @@ input{
 	border: 1px solid darkgray;
 }
 .input-48{
-	width: 48%;
+	width: 20%;
+}
+.input-50{
+	width: 25%;
 }
 .input-100{
-	width: 100%;
+	width: 40%;
 }
 .btn-enviar{
 	background: #e48811;
 	color: #fff;
 	margin: auto;
-	padding: 10px 40px;
+	padding: 10px 25px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 15px;
 
 }
 .btn-enviar:hover{
@@ -70,3 +73,30 @@ transform: scale(1.1);
 	font-size: 14px;
 	text-align: center;
 }
+
+/*.tabla{
+	border:rgb(8, 69, 184);
+	background-color: lightblue;
+}*/
+table {
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+  }
+  
+  td, th {
+	border: 1px solid rgb(8, 69, 184);
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: lightblue;
+  }
+  .div-tabla{
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	/*width: 95%;
+	margin: auto;*/
+  }

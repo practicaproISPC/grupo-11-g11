@@ -1,0 +1,66 @@
+/* Estilos de etiqueta*/
+body {
+    background-color: #9AD1ED;
+  }
+  
+  table {
+    background: white;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2A5484;
+    height: 35px;
+    border-bottom: 1px solid rgb(210, 220, 250);
+    color: whitesmoke;
+  }
+  
+  td {
+    color: rgba(100, 100, 100, 60);
+    height: 50px;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+
+  /*Pseudo-clases*/
+  th:hover {
+    background-color: #596CBD;
+  }
+  
+  td:hover {
+    background-color: #596CBD;
+  }
+  
+  /* Estililos de clases*/
+  .PrecioTotal:hover,
+  .CantidadTotal:hover {
+    color: rgb(230, 50, 50);
+  }
+  
+  .Cabecera {
+    background-color: #2A5484;
+    border-radius: 4px;
+    height: 150px;
+    padding:20px;
+    margin: 0 12.5%;
+    text-align: center;
+    color: white;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
